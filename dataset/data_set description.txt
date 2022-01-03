@@ -1,0 +1,18 @@
+Dataset contains 9576 rows and 10 variables with essential meanings:
+
+car: manufacturer brand
+price: seller’s price in advertisement (in USD)
+body: car body type
+mileage: as mentioned in advertisement (‘000 Km)
+engV: rounded engine volume (‘000 cubic cm)
+engType: type of fuel (“Other” in this case should be treated as NA)
+registration: whether car registered in Ukraine or not
+year: year of production
+model: specific model name
+drive: drive type
+Data has gaps, so be careful and check for NA’s.
+I tried to check and drop repeated offers, but theoretically duplications are possible.
+
+Inspiration
+Data will be handy to study and practice different models and approaches.
+As a further step you can compare patters in Ukrainian market to your own domestic car market characteristics.
